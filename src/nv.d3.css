@@ -653,4 +653,31 @@ svg .title {
   */
 }
 
+/**********
+* undevPieChart
+*/
+
+.nv-hint {
+  opacity: 0;
+}
+
+.nv-hint.always-visible {
+  opacity: 0.3;
+}
+
+.nv-hint.always-visible .nv-hint-value {
+  opacity: 0;
+}
+
+.nv-slice:hover .nv-hint {
+  opacity: 1;
+}
+
+.nv-slice:hover .nv-hint.always-visible .nv-hint-value {
+  opacity: 1;
+}
+
+.nv-label rect {
+  fill: white;
+}
 
