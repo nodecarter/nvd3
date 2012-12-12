@@ -11046,7 +11046,7 @@ nv.models.undevPieChart = function() {
         .selectAll('label.nv-toggle-hints').data([0]).enter()
           .insert("label", "svg")
             .attr("class", "nv-toggle-hints")
-            .text("Show all hitnts");
+            .text("Show all hints");
       var toggleHintCheckBox = toggleHintLabel
         .selectAll("input.nv-toggle-hints").data([0]).enter()
           .insert("input")
